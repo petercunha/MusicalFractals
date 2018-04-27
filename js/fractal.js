@@ -75,7 +75,7 @@ animate();
 
 function init() {
 
-  sprite1 = THREE.ImageUtils.loadTexture( 'resources/galaxy.png' );
+  sprite1 = THREE.ImageUtils.loadTexture( 'https://i.imgur.com/SOEWpH3.png' );
 
   container = document.createElement( 'div' );
   document.body.appendChild( container );
