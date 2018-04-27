@@ -3,6 +3,9 @@ Generates 3D, animated fractals by analyzing the waveform of audio files. By uti
 
 [Click here for a demo](https://petercunha.com/MusicalFractals) (Be sure to open in Chrome)
 
+![img1](https://i.imgur.com/C4ShQe4.jpg)
+![img2](https://i.imgur.com/gmUl2KR.jpg)
+
 ## About
 
 The fractals are generated using Hopalong Orbits.
