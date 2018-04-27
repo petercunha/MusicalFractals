@@ -19,6 +19,7 @@ Where a, b, c are parameters seeded by analyzing the waveform of the browser's a
 The graphical portion of this project was created by [Iacopo Sassarini](https://plus.google.com/+IacopoSassarini). In his implementation, he used random seeds to generate and render random Hapolong Orbital fractals. I modified his code to use the waveform of browser audio as a seed to generate fractals. 
 
 
+## Some images
 
 ![img1](https://i.imgur.com/C4ShQe4.jpg)
 
