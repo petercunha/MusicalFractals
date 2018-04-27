@@ -1,7 +1,7 @@
 # Musical Fractals
 Generates 3D, animated fractals by analyzing the waveform of audio files. By utilizing the Web Audio API, I was able to generate fractals based off of browser audio, completely client side in the browser!
 
-[Click here for a demo](https://petercunha.com/MusicalFractals) :warning: Autoplaying audio and CPU intensive!
+[Click here for a demo (Open in Chrome)](https://petercunha.com/MusicalFractals) :warning: *Autoplaying audio and CPU intensive!*
 
 ## About
 
