@@ -1,20 +1,40 @@
-
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Musical Orbits Visualizer</title>
-    </head>
-    <body>
-      <audio id="audioElement" src="resources/song4.mp3" autoplay controls="controls"></audio>
 
-      <script src="http://iacopoapps.appspot.com/hopalongwebgl/build/Three.js"></script>
-      <script src="http://iacopoapps.appspot.com/hopalongwebgl/js/Stats.js"></script>
-      <script src="http://iacopoapps.appspot.com/hopalongwebgl/js/Detector.js"></script>
-      <script src="http://iacopoapps.appspot.com/hopalongwebgl/js/RequestAnimationFrame.js"></script>
+<head>
+  <title>Musical Orbits Visualizer</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
 
-      <script src="js/audioseed.js"></script>
-      <script src="js/fractal.js"></script>
+<body>
+  <a href="#" id="selector-toggle">Songs</a>
+  <span id="now-playing">Mat Zo - Sky</span>
+  <audio id="audioElement" src="resources/song4.mp3" autoplay controls="controls"></audio><br />
 
-      <link rel="stylesheet" href="css/main.css" />
-    </body>
+  <div id="selector">
+    <br />
+    <a class="selector-choice" href="#" file="song4.mp3">Mat Zo - Sky</a><br /><br />
+    <a class="selector-choice" href="#" file="song2.webm">Deadmau5 - Strobe</a><br /><br />
+    <a class="selector-choice" href="#" file="song3.mp3">Electro stuff</a><br /><br />
+    <a class="selector-choice" href="#" file="song.mp3">Weeb stuff</a><br /><br />
+  </div>
+
+  <div id="loader">
+    <br />
+    <a>Loading, please wait...</a><br /><br />
+  </div>
+
+  <script src="http://iacopoapps.appspot.com/hopalongwebgl/build/Three.js"></script>
+  <script src="http://iacopoapps.appspot.com/hopalongwebgl/js/Stats.js"></script>
+  <script src="http://iacopoapps.appspot.com/hopalongwebgl/js/Detector.js"></script>
+  <script src="http://iacopoapps.appspot.com/hopalongwebgl/js/RequestAnimationFrame.js"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <script src="js/overlay.js"></script>
+  <script src="js/audioseed.js"></script>
+  <script src="js/fractal.js"></script>
+
+
+</body>
+
 </html>
