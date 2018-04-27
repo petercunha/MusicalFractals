@@ -3,9 +3,6 @@ Generates 3D, animated fractals by analyzing the waveform of audio files. By uti
 
 [Click here for a demo](https://petercunha.com/MusicalFractals) (Be sure to open in Chrome)
 
-![img1](https://i.imgur.com/C4ShQe4.jpg)
-![img2](https://i.imgur.com/gmUl2KR.jpg)
-
 ## About
 
 The fractals are generated using Hopalong Orbits.
@@ -20,3 +17,10 @@ Where a, b, c are parameters seeded by analyzing the waveform of the browser's a
 ## Credit
 
 The graphical portion of this project was created by [Iacopo Sassarini](https://plus.google.com/+IacopoSassarini). In his implementation, he used random seeds to generate and render random Hapolong Orbital fractals. I modified his code to use the waveform of browser audio as a seed to generate fractals. 
+
+
+
+![img1](https://i.imgur.com/C4ShQe4.jpg)
+
+
+![img2](https://i.imgur.com/gmUl2KR.jpg)
