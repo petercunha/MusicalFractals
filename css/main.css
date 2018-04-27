@@ -39,6 +39,26 @@ a {
     z-index: 100;
 }
 
+span {
+  color: #ccc;
+  font-style: italic;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#selector, #loader {
+    display: none;  /* hide until they open song selector */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    border: 4px solid #ccc;
+    background-color: #000000;
+    z-index: 9999 !important;
+}
+
 #chaosnebula {
     position: absolute;
     padding: 5px;
