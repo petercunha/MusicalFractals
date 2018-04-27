@@ -1,0 +1,66 @@
+body {
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+    font-family:Monospace;
+    font-size:13px;
+    text-align:center;
+    font-weight: bold;
+    text-align:center;
+}
+a {
+    color:#ffffaa;
+}
+#info {
+    color: #fff;
+    position: absolute;
+    top: 0px; width: 100%;
+    padding: 5px;
+    z-index: 100;
+}
+
+#fb {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 100;
+}
+#tweet {
+    position: absolute;
+    bottom: 7px;
+    left: 90px;
+    z-index: 100;
+}
+
+#plusone {
+    position: absolute;
+    bottom: 7px;
+    left: 157px;
+    z-index: 100;
+}
+
+#chaosnebula {
+    position: absolute;
+    padding: 5px;
+    bottom: 0px;
+    right: 5px;
+    z-index: 100;
+    color:#fff;
+}
+
+#about {
+        text-align:left;
+        z-index:110;
+        position:absolute;
+        top: 25px;
+        left: 5px;
+        display:none;
+        width: 400px;
+        color:#fff; background: #121212; opacity:0.8; border-radius:20px; padding: 16px
+}
+#aboutlink {
+    z-index:110;
+        position:absolute;
+        top: 5px;
+        left: 5px;
+}
