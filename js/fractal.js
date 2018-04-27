@@ -67,7 +67,7 @@ var mouseX = 0, mouseY = 0;
 var windowHalfX = window.innerWidth / 2;
 var windowHalfY = window.innerHeight / 2;
 
-var speed = 5;
+var speed = 20;
 var rotationSpeed = 0.003;
 
 init();
